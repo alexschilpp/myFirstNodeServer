@@ -1,3 +1,5 @@
+// example node server
+
 var http = require('http');
 var serverConfig = {
 	hostname: "127.0.0.1",

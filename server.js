@@ -1,3 +1,5 @@
+// node server using the express framework
+
 var express = require('express'),
 	exphbs 	= require('express3-handlebars'),
 	app 	= express(),
