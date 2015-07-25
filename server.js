@@ -9,7 +9,11 @@ var callback = function() {
 	console.log('Server listening on Port '+ port +'...');
 };
 
-app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+app.engine('handlebars', 
+	exphbs({
+		defaultLayout: 'main'
+	}));
+
 app.set('view engine', 'handlebars');
 
 app.get('/', function (req, res) {
